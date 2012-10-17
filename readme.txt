@@ -1,5 +1,7 @@
 Hi, Thanks for viewing my application. This application is created for the Cloud Foundry App Challenge - SpringOne 2012 - Washington DC
 
+The picture on the index page shows how CloudFoundry reduces the cost while increasing the productivity.
+
 Notes:
 
 - What is the application about: The application is showcases CRUD operations on an employee record
