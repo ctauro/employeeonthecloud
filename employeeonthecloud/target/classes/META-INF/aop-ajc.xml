@@ -1,0 +1,13 @@
+<aspectj>
+<aspects>
+<aspect name="com.clarence.employeeonthecloud.Employee_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.clarence.employeeonthecloud.controller.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.clarence.employeeonthecloud.Employee_Roo_ToString"/>
+<aspect name="com.clarence.employeeonthecloud.controller.Controller_Roo_Controller"/>
+<aspect name="com.clarence.employeeonthecloud.Employee_Roo_Configurable"/>
+<aspect name="com.clarence.employeeonthecloud.Employee_Roo_Jpa_Entity"/>
+<aspect name="com.clarence.employeeonthecloud.Employee_Roo_JavaBean"/>
+<aspect name="com.clarence.employeeonthecloud.Employee_Roo_Finder"/>
+</aspects>
+</aspectj>
+

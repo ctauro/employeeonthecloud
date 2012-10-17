@@ -1,0 +1,29 @@
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-10-17 00:07:15
+project --topLevelPackage com.clarence.employeeonthecloud --projectName employeeonthecloud --java 6 --packaging JAR
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-10-17 00:07:16
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-10-17 00:07:25
+hint
+jpa setup --database HYPERSONIC_IN_MEMORY --provider HIBERNATE 
+hint
+entity jpa --class com.clarence.employeeonthecloud.Employee 
+hint
+field number --fieldName employeeId --type int --notNull 
+field string --fieldName employeeName --sizeMin 2 --sizeMax 30
+field number --fieldName employeeSalary --type float --min 1000 --max 40000
+// [failed] field number --fieldName employeeId --type int --notNull --unique
+hint
+hint logging
+logging setup --level INFO 
+hint
+hint finders
+finder list
+finder add --finderName findEmployeesByEmployeeNameLike
+hint
+finder list
+finder add --finderName findEmployeesByEmployeeId
+hint
+hint web mvc
+web mvc setup
+web mvc scaffold --class com.clarence.employeeonthecloud.controller.Controller
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-10-17 00:48:32
